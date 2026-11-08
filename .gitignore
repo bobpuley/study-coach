@@ -1,0 +1,24 @@
+# Learning paths (any top-level folder with a path.yml) — user content, not part of the agent.
+# Add each path folder here, or keep your paths in a private fork/clone.
+/agentic-programming/
+/algorithms/
+/api-design/
+/core-java/
+/design-patterns/
+/system-design/
+/practicing/
+
+# Personal state
+/.claude/memory/
+/.claude/settings.local.json
+
+# Domain skills: only the bundled ones are tracked
+/.claude/skills/*
+!/.claude/skills/learning-path-creator/
+!/.claude/skills/practicing/
+!/.claude/skills/whiteboard/
+!/.claude/skills/core-java/
+
+.obsidian/
+.idea/
+.DS_Store

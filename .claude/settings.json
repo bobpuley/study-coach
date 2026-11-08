@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 .claude/scripts/glossary.py *)",
+      "mcp__agent-whiteboard__render",
+      "mcp__agent-whiteboard__wait_done",
+      "mcp__agent-whiteboard__init_step_frames",
+      "mcp__agent-whiteboard__append_frame",
+      "mcp__agent-whiteboard__commit_step_frames",
+      "mcp__agent-whiteboard__step"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "agent-whiteboard"
+  ]
+}
